@@ -16,7 +16,8 @@ concurrency:
 jobs:
   test:
     name: macOS tests and build
-    runs-on: macos-14
+    # Swift Testing is bundled with Xcode 16 and later.
+    runs-on: macos-15
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
