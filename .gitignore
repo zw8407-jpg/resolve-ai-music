@@ -1,0 +1,23 @@
+.build/
+dist/
+.DS_Store
+*.xcuserstate
+tmp/
+work/
+outputs/
+output/
+**/__pycache__/
+*.pyc
+*.wav
+*.mp3
+.env
+.env.*
+*.p12
+*.cer
+*.provisionprofile
+notarization-*.json
+
+# Internal planning and private commercial correspondence
+AGENTS.md
+docs/agent-audit-*.md
+docs/tencent-cooperation-inquiry.md

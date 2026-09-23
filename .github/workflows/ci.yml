@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: macOS tests and build
+    runs-on: macos-14
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check public tree
+        run: bash scripts/check-public-tree.sh
+      - name: Run tests
+        run: bash scripts/test.sh
+      - name: Build application
+        run: bash scripts/build-app.sh
+      - name: Verify local signature
+        run: codesign --verify --deep --strict "dist/Resolve AI Music.app"

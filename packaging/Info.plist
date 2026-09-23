@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>io.github.zw8407-jpg.ResolveAIMusic</string>
+<key>CFBundleName</key><string>Resolve AI Music</string>
+<key>CFBundleExecutable</key><string>ResolveAIMusic</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleIconFile</key><string>AppIcon.icns</string>
+<key>CFBundleIconName</key><string>AppIcon</string>
+<key>CFBundleShortVersionString</key><string>1.3.0</string>
+<key>CFBundleVersion</key><string>11</string>
+<key>LSMinimumSystemVersion</key><string>13.0</string>
+<key>LSUIElement</key><false/>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSMicrophoneUsageDescription</key><string>将您的口述转换为音乐描述，仅在点击麦克风时启用。</string>
+<key>NSSpeechRecognitionUsageDescription</key><string>使用设备端中文语音识别输入音乐描述或文稿。</string>
+</dict></plist>
