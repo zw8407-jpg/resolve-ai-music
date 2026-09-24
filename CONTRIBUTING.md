@@ -36,4 +36,10 @@ default.
 6. Preserve timeline ownership checks, pre-write backups, collision detection,
    and failure recovery.
 
-By submitting a contribution, you agree that it is licensed under Apache-2.0.
+## Contribution certification
+
+This project uses the [Developer Certificate of Origin 1.1](https://developercertificate.org/).
+Add a `Signed-off-by` line to every commit with `git commit -s`. By signing off,
+you certify that you have the right to submit the contribution and that it may
+be distributed under Apache-2.0. Do not submit code, designs, prompts, audio,
+or other material that you do not have permission to contribute.
